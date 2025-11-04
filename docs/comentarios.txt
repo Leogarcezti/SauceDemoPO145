@@ -14,3 +14,6 @@ Abordagens:
 - Script Page Objects/Page Factory
     - mapeamento de páginas/telas: 1 arquivo para cada
     - automação (único ou BDD)
+
+Comando para Executar os testes bdd: npm run test:bdd    
+Comando executar e gerar o report: npx cucumber-js --format json:cucumber-report.json && node generate-report.js
